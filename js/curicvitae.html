@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c-vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Admin\Links\css\estilos.css" />
+    <script src="https://kit.fontawesome.com/159d0b1095.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <img src="https://s36496.pcdn.co/wp-content/uploads/2017/11/9-si-foto-cv.png" alt="">
+    <h1>JHON  FRANCO</h1>
+</header>
+
+    <nav id="contenedor-iconos">
+    
+               <button id="icono1"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> </a></button>         
+               <button id="icono2"><a href="http://fb.com/" target="_blank"><i class="fa-brands fa-facebook"></i> </a></button> 
+               <button id="icono3"><a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter"></i></a></button>         
+               <button id="icono4"> <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>     </button>             
+    </nav>
+  
+    <aside>
+      <fieldset id="datosgenerales1">  
+        <p> DATOS-GENERALES</p>
+       
+       <button id="btndatos">  <i class="fa-solid fa-envelope"></i> </button>
+       <button id="telefono">  <i class="fa-solid fa-phone"></i> </button>
+       <button id="cuit">  <i class="fa-regular fa-address-card"></i>  </button>
+       <p id="parra"></p>
+       <p></p>
+       <p>CONOCCIMIENTOS</p>
+       <UL>
+          <LI>CARPINTERIA:</LI>
+           <P> ARMADO DE MUBLES EN MELAMINA </P>
+           <LI>HERRERIA</LI>
+           <P>SALDADURA, PUNTO Y COSTURA CON VARILLAS DE BRONCE </P>
+           <LI>DESARROLLO</LI>
+           <P>PROGRAMADOR EN HTML Y CSS</P>
+       </UL>
+    </fieldset>
+    </aside>
+    <section>
+    <FIEldset id="seccion">
+        <LEGENd>FORMACION</LEGENd>
+        <UL>
+            <li>PRIMARIA:</Li> <P>ESCUELA JOSE INGENIEROS</P>
+            <li>SECUNDARIA:</Li> <P>ESCUELA DE COMERCIO DR. MANUEL LIZONDO BORDA</P>
+            <Li>TERCIARIA:</Li> <P>DESAROLLO WEB-EN UNT</P>
+            <LI>CURSOS:</LI><P>HERRERIA ARTISTICA - ENET 2</P>
+        </UL>
+    </FIEldset>
+    </section>
+    <article>
+    <fieldset id="experiencias">
+        <legend>EXPERIENCIAS LABORALES</legend>
+        <ul>
+            <li>CAMARERO: <LI><P> HOTEL COMPAN - MARZO 2017 </P>
+            <LI>CARPINTERO: <li><p>MADERCLASS - JULIO 2019</P>
+            <li>HERRERO: <li><p> SOLDA-NOR - OCTUBRE 2020</P>
+            <li>DESARROLLADOR BACK-END: <li><p> INNOVACION-PEREYRA - MARZO 2021 -PRESENTE </P>
+        </ul>
+    </fieldset>    
+    </article>
+    <footer>
+    <FIELdset id="seccion1">
+        <LEGENd>MAS SOBRE MI</LEGENd>
+        <UL>   
+            <LI> MIS CUALIDADES SON: SER INTROVERTIDO Y PERSISTENTE</LI>
+            <LI>MIS CAPACIDADES SON: APRENDER RAPIDO Y ME ADAPTO RAPIDO </LI>
+        </UL>
+    </FIELdset>
+    </footer>
+   
+
+    <script>
+     
+     document.getElementById('btndatos').addEventListener ('click' , function () {
+        document.getElementById("parra").innerHTML = "EMAIL:MAURI1552258@GMAIL.COM"
+        
+        
+       });
+       document.getElementById('telefono').addEventListener ('click' , function () {
+        document.getElementById("parra").innerHTML = "TELEFONO: 1985522123"
+        
+        
+       });
+        
+       document.getElementById('cuit').addEventListener ('click' , function () {
+        document.getElementById("parra").innerHTML = "CUIT:45-15523652266-1"
+        
+       });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: 'Oswald', sans-serif; 
+background-color: aqua;
+}
+
+
+
+h1 {
+    text-align: center;
+    
+}
+
+
+legend {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% ;
+    display: block;
+    margin: auto;
+    
+}
+
+li {
+    font-weight: bold;
+}
+#seccion, #seccion1 , #experiencias{
+    s
+    border-color: gray;
+    border-width: 10px ;
+    border-radius: 15px;
+    margin-top: 2%; 
+   
+    width: 60% ;
+    height: auto;
+    margin-left: 30%;
+
+}
+
+#PARRAFOESPEC {
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(32, 32, 36);
+}
+
+
+  #contenedor-iconos {
+    align-content: center;
+    justify-content: center;
+    margin-left: 40%;
+  }
+  
+ #datosgenerales1 {
+    
+    display: block;
+    width: 300px;
+    height: 550px;
+    margin-top: 50px;
+    border-color: gray;
+    border-width: 10px ;
+    border-radius: 15px;
+    margin-top: 2%; 
+  float: left ; 
+  }
+ 
+  #icono1 , #icono2 , #icono3 ,#icono4{
+    margin: 20px;
+    ;
+  }
